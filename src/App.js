@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import {Expenses} from './components/expenses/Expenses'
+import NewExpanses from './components/newExpenses/NewExpenses';
 
 function App() {
+const onSaveExpanses = (data) => {
+console.log(data)
+}
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NewExpanses addExpenses = {onSaveExpanses}/>
+      <Expenses/>
     </div>
+
   );
 }
 
-export default App;
+export default App; 
