@@ -1,6 +1,8 @@
 import './ExpenseItem.css'
 import ExpenseDate from './ExpenseDate';
 import Card from '../ui/card';
+import React from 'react';
+
 
 export default function ExpenseItem(props) {
     return (

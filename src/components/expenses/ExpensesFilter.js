@@ -1,4 +1,6 @@
 import './ExpenseFilter.css';
+import React from 'react';
+
 
 export default function ExpensesFilter(props) {
 

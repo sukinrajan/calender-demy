@@ -1,5 +1,7 @@
 import './NewExpenses.css'
 import ExpansesForm from './ExpensesForm'
+import React from 'react';
+
 
 const NewExpanses = (props)=>{
    const saveEnteredExpances = (enteredData) => {

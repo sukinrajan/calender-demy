@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './ExpensesForm.css'
+import React from 'react';
+
 
 const ExpensesForm = (props) => {
     const [enteredTitle, setEnteredTitle] = useState('')
